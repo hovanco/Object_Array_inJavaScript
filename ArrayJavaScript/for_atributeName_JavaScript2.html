@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<p>Object in Array JavaScript</p>
+	<p>Add 1 array in 1 array</p>
+
+	<script type="text/javascript">
+		var user1 = {name: "Nam", age: "21"};
+		var user2 = {name: "Hoa", age: "19"};
+		console.log(user1);
+		console.log(user2);
+
+		var arr = Array(user1, user2);
+		console.log(arr);  
+		
+
+		var names = "";
+		for (var i = 0; i < arr.length; i++) {
+			names += arr[i].name;
+		}
+		console.log(names);
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
